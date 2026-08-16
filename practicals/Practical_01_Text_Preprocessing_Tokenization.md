@@ -1,8 +1,8 @@
 # Practical 1 — Text Preprocessing & Tokenization
 
-**Name:** <!-- fill in -->
+**Name:Haya Sachin**
 **Course:** NLP
-**Date:** <!-- fill in -->
+
 
 ## Aim
 To perform text preprocessing (case normalization, punctuation/number/whitespace removal) and tokenization (sentence-level and word-level, comparing regex, NLTK, and spaCy tokenizers) on a small sample review corpus.
