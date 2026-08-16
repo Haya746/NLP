@@ -21,7 +21,7 @@ things in rather than a dump of pre-written content.
 
 - [x] Text preprocessing & normalization
 - [x] Tokenization (word, sentence, regex-based)
-- [ ] Stopword removal
+- [x] Stopword removal
 - [ ] Stemming & lemmatization
 - [ ] POS tagging & chunking
 - [ ] Named Entity Recognition (NER)
