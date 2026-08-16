@@ -19,8 +19,8 @@ things in rather than a dump of pre-written content.
 
 ## Topics covered (updated as notebooks are added)
 
-- [ ] Text preprocessing & normalization
-- [ ] Tokenization (word, sentence, regex-based)
+- [x] Text preprocessing & normalization
+- [x] Tokenization (word, sentence, regex-based)
 - [ ] Stopword removal
 - [ ] Stemming & lemmatization
 - [ ] POS tagging & chunking
