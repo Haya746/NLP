@@ -51,13 +51,7 @@ text both work — check what your instructor expects.
 
 ## Conclusion
 
-<!--
-Write 4-6 sentences in your own words, based on what you actually observed:
-- Which preprocessing step changed the text the most, and did it lose any
-  information you didn't expect?
-- Where did the three tokenizers disagree, and why?
-- What did the token count / vocabulary size numbers tell you about the dataset?
--->
+Across all three tokenizers, "can't" was handled differently. Regex split it into "can" and "t", which doesn't make sense on its own — "t" carries no meaning as an isolated token. NLTK and spaCy both split it into "ca" and "n't" instead, which is a better split, since "n't" at least stays recognizable as the negation piece. Regex also dropped the !! and . completely, while NLTK and spaCy preserved them as separate tokens — this matters for a task like sentiment analysis, since punctuation like !! can be a real signal of tone or intensity that you'd lose entirely with regex. I expected a richer vocabulary for casual review text than what came out — 12.93 tokens per review and only 136 unique words across 15 reviews was lower than I'd have guessed.
 
 ## Viva Questions
 
