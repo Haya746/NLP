@@ -27,7 +27,7 @@ things in rather than a dump of pre-written content.
 - [ ] Named Entity Recognition (NER)
 - [ ] Bag of Words / CountVectorizer / HashingVectorizer
 - [ ] TF-IDF
-- [ ] N-grams & skip-grams
+- [x] N-grams & skip-grams
 - [ ] Word2Vec / Doc2Vec / FastText (intro)
 - [ ] Word clouds
 - [ ] Sentiment analysis (VADER, TextBlob)
