@@ -33,22 +33,17 @@ Full implementation lives in:
 
 ## Output
 
-<!--
-Run notebooks/02_Stopword_Removal.ipynb top to bottom, then paste your actual
-output here — the NLTK stopword list size, before/after examples, what you
-found when checking for negation words, and the three vocabulary size numbers.
--->
+- Review 7: found ['not'] in tokens -> ['two', 'hours', 'and', 'mins', 'of', 'pure', 'boredom', 'would', 'not', 'recommend', 'to', 'anyone']
+- Review 8: found ['no'] in tokens -> ['wow', 'best', 'film', 'ive', 'seen', 'in', 'years', 'hands', 'down', 'no', 'notes']
+- Review 9: found ['not', 'not'] in tokens -> ['its', 'okay', 'not', 'great', 'not', 'terrible', 'somewhere', 'in', 'the', 'middle', 'id', 'say']
+- Review 13: found ['not'] in tokens -> ['dont', 'get', 'me', 'wrong', 'its', 'not', 'bad', 'but', 'i', 'expected', 'way', 'more', 'given', 'the', 'hype']
+- Raw vocabulary (Practical 1 baseline):  136
+- After NLTK stopword removal: 102
+- After NLTK + custom domain stopword removal:  94
 
 ## Conclusion
 
-<!--
-Write 4-6 sentences in your own words, based on what you actually observed:
-- Did negation words actually get removed, or had Practical 1's cleaning
-  already changed their form so they didn't match the stopword list?
-- How much did vocabulary size shrink at each stage?
-- Was stopword removal net helpful or net risky for this dataset if the
-  eventual goal were sentiment analysis?
--->
+Step 3 showed that literal negation words like "not" and "no" appear intact in the tokens (e.g. review 7: "would not recommend"; review 9: "not great, not terrible"), and both are confirmed present in NLTK's stopword list — meaning stopword removal would strip them outright and could flip a review's apparent sentiment. Separately, review 13 also contained "dont" (from "Don't get me wrong"), but this form wasn't flagged at all, since apostrophe removal in Practical 1's cleaning step turned it into a form that no longer matches stopword-list entries like "don". This shows two distinct risks: stopword removal can directly delete real negation words, and preprocessing order can also cause negation words to silently escape detection in a mangled form. Vocabulary size dropped from 136 (raw) to 102 after NLTK stopword removal, and to 94 after adding the custom domain list — a modest additional cut compared to NLTK's list alone. For sentiment analysis specifically, stopword removal reduces noise but is genuinely risky here, given that real negation words were confirmed present and removable — it would need to be applied carefully, likely by excluding negation words from the stopword list before removing the rest.
 
 ## Viva Questions
 
