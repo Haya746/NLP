@@ -22,7 +22,7 @@ things in rather than a dump of pre-written content.
 - [x] Text preprocessing & normalization
 - [x] Tokenization (word, sentence, regex-based)
 - [x] Stopword removal
-- [ ] Stemming & lemmatization
+- [x] Stemming & lemmatization
 - [ ] POS tagging & chunking
 - [ ] Named Entity Recognition (NER)
 - [ ] Bag of Words / CountVectorizer / HashingVectorizer
