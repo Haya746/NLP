@@ -23,8 +23,9 @@ things in rather than a dump of pre-written content.
 - [x] Tokenization (word, sentence, regex-based)
 - [x] Stopword removal
 - [x] Stemming & lemmatization
-- [ ] POS tagging & chunking
-- [ ] Named Entity Recognition (NER)
+- [x] POS tagging
+- [ ] Chunking
+- [x] Named Entity Recognition (NER)
 - [ ] Bag of Words / CountVectorizer / HashingVectorizer
 - [ ] TF-IDF
 - [x] N-grams & skip-grams
