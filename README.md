@@ -26,8 +26,8 @@ things in rather than a dump of pre-written content.
 - [x] POS tagging
 - [ ] Chunking
 - [x] Named Entity Recognition (NER)
-- [ ] Bag of Words / CountVectorizer / HashingVectorizer
-- [ ] TF-IDF
+- [x] Bag of Words / CountVectorizer / HashingVectorizer
+- [x] TF-IDF
 - [x] N-grams & skip-grams
 - [ ] Word2Vec / Doc2Vec / FastText (intro)
 - [ ] Word clouds
