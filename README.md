@@ -29,7 +29,7 @@ things in rather than a dump of pre-written content.
 - [x] Bag of Words / CountVectorizer / HashingVectorizer
 - [x] TF-IDF
 - [x] N-grams & skip-grams
-- [ ] Word2Vec / Doc2Vec / FastText (intro)
+- [x] Word2Vec / Doc2Vec / FastText (intro)
 - [ ] Word clouds
 - [ ] Sentiment analysis (VADER, TextBlob)
 - [ ] Text classification (Naive Bayes, Logistic Regression, SVM, Random Forest)
