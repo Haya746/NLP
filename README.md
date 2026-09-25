@@ -31,7 +31,7 @@ things in rather than a dump of pre-written content.
 - [x] N-grams & skip-grams
 - [x] Word2Vec / Doc2Vec / FastText (intro)
 - [ ] Word clouds
-- [ ] Sentiment analysis (VADER, TextBlob)
+- [x] Sentiment analysis (VADER, TextBlob)
 - [ ] Text classification (Naive Bayes, Logistic Regression, SVM, Random Forest)
 - [ ] Topic modelling (LDA)
 - [ ] Text similarity & cosine similarity
