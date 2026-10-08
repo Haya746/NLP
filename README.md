@@ -35,7 +35,7 @@ things in rather than a dump of pre-written content.
 - [x] Text classification (Naive Bayes, SVM covered; Logistic Regression/Random Forest not yet)
 - [x] Topic modelling (LDA)
 - [x] Text similarity & cosine similarity
-- [ ] Spell checking
+- [x] Spell checking
 - [ ] Text summarization (basic)
 - [ ] Chatbot basics
 
