@@ -24,7 +24,7 @@ things in rather than a dump of pre-written content.
 - [x] Stopword removal
 - [x] Stemming & lemmatization
 - [x] POS tagging
-- [ ] Chunking
+- [x] Chunking (covered together with POS tagging in notebook 05)
 - [x] Named Entity Recognition (NER)
 - [x] Bag of Words / CountVectorizer / HashingVectorizer
 - [x] TF-IDF
@@ -32,9 +32,9 @@ things in rather than a dump of pre-written content.
 - [x] Word2Vec / Doc2Vec / FastText (intro)
 - [ ] Word clouds
 - [x] Sentiment analysis (VADER, TextBlob)
-- [ ] Text classification (Naive Bayes, Logistic Regression, SVM, Random Forest)
-- [ ] Topic modelling (LDA)
-- [ ] Text similarity & cosine similarity
+- [x] Text classification (Naive Bayes, SVM covered; Logistic Regression/Random Forest not yet)
+- [x] Topic modelling (LDA)
+- [x] Text similarity & cosine similarity
 - [ ] Spell checking
 - [ ] Text summarization (basic)
 - [ ] Chatbot basics
@@ -81,7 +81,7 @@ theory, code, and output for that topic.
 ## Mini projects
 
 Added as they're completed:
-- [ ] Movie review sentiment classifier
+- [x] Movie review sentiment classifier
 - [ ] Email spam detector
 - [ ] Fake news detector
 - [ ] Resume keyword extractor
