@@ -30,7 +30,7 @@ things in rather than a dump of pre-written content.
 - [x] TF-IDF
 - [x] N-grams & skip-grams
 - [x] Word2Vec / Doc2Vec / FastText (intro)
-- [ ] Word clouds
+- [x] Word clouds
 - [x] Sentiment analysis (VADER, TextBlob)
 - [x] Text classification (Naive Bayes, SVM covered; Logistic Regression/Random Forest not yet)
 - [x] Topic modelling (LDA)
